@@ -6,10 +6,6 @@
   <a href="https://kobe13.github.io/portfolio/">View Portfolio</a>
 </p>
 
-<p align="center">
-  Portfolio made with Gatsby.
-</p>
-
 ## Table of Contents
 
 - [About](#about)
