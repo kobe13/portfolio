@@ -4,11 +4,10 @@ import type { HeadFC, PageProps } from "gatsby"
 const IndexPage: React.FC<PageProps> = () => {
   return (
       <main className="flex justify-center flex-col text-center p-20">
-        <h1 className="text-3xl font-bold">
+        <h1 className="mt-4 mb-10 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
           My portfolio 😎
         </h1>
-        <br/>
-          <span className="font-semibold text-indigo-600">work in progress...</span>
+          <span className="text-base font-semibold text-indigo-600">work in progress...</span>
       </main>
   )
 }
