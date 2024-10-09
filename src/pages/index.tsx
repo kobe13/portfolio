@@ -17,8 +17,9 @@ const IndexPage: React.FC<PageProps> = () => {
           <StaticImage
             className="relative flex h-24 w-24 overflow-hidden rounded-full ml-4"
             quality={100}
+            width={100}
             src="../images/me.jpg"
-            alt={"BN"}
+            alt={"Bryan"}
             placeholder="blurred"
           />
         </h1>
