@@ -127,6 +127,7 @@ export const Head: HeadFC = () => {
       <html lang="en" />
       <body className="min-h-screen bg-background font-sans antialiased max-w-6xl mx-auto py-12 sm:py-24 px-6" />
       <title>My portfolio</title>
+      <meta name="description" content="Bryan's portfolio" />
     </>
   );
 };
