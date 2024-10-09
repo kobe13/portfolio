@@ -15,9 +15,12 @@ const IndexPage: React.FC<PageProps> = () => {
         <h1 className="flex flex-row items-center justify-center text-5xl text-white mb-8 font-bold tracking-tighter sm:text-6xl xl:text-6xl/none">
           Hi, I'm {DATA.name}
           <StaticImage
-            className="relative flex h-24 w-24 overflow-hidden rounded-full ml-4"
-            src="https://raw.githubusercontent.com/kobe13/portfolio/refs/heads/main/src/images/me.jpg"
+            className="relative flex overflow-hidden rounded-full ml-4"
+            src="../images/me.jpg"
             alt={"Bryan"}
+            width={150}
+            height={150}
+            quality={90}
             placeholder="blurred"
           />
         </h1>
