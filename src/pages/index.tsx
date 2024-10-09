@@ -1,17 +1,21 @@
-import * as React from "react"
-import type { HeadFC, PageProps } from "gatsby"
+import * as React from "react";
+import type { HeadFC, PageProps } from "gatsby";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
-      <main className="flex justify-center flex-col text-center p-20">
-        <h1 className="mt-4 mb-10 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-          My portfolio 😎
+    <main className="py-20 bg-gradient-to-b from-indigo-700 to-indingo-400 text-center">
+      <div className="container mx-auto px-4">
+        <h1 className="text-5xl font-bold text-white mb-8">
+          👋 Hey there! Welcome to my portfolio! 😎
         </h1>
-          <span className="text-base font-semibold text-indigo-600">work in progress...</span>
-      </main>
-  )
-}
+        <p className="text-base font-bold text-indigo-600">
+          Work in progress...
+        </p>
+      </div>
+    </main>
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 
-export const Head: HeadFC = () => <title>My portfolio</title>
+export const Head: HeadFC = () => <title>My portfolio</title>;
