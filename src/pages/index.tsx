@@ -58,7 +58,11 @@ const IndexPage: React.FC<PageProps> = () => {
           </div>
           <ul className="mt-2 flex flex-row flex-wrap justify-center gap-2">
             {DATA.keySkills.map((skill, idx) => (
-              <li className="text-lg" key={idx} title={skill}>
+              <li
+                className="md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
+                key={idx}
+                title={skill}
+              >
                 {skill}
               </li>
             ))}
