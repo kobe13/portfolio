@@ -14,7 +14,7 @@
 
 ## About
 
-This is my personal portfolio website built using Gatsby, React, TypeScript and Tailwind CSS. It showcases my projects, skills, and experience.
+This is my personal portfolio website deployed on GitHub Pages using GitHub Action and built with Gatsby, React, TypeScript and Tailwind CSS. It showcases my projects, skills, and experience.
 
 ## Installation
 
