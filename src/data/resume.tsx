@@ -47,6 +47,11 @@ export const DATA = {
         url: "https://www.linkedin.com/in/nelsonbryan/",
         icon: Icons.linkedin,
       },
+      Resume: {
+        name: "Resume",
+        url: "https://drive.google.com/file/d/1RKc0WrpjHFFpU-lnoV2dLOc_NNUdMhDU/view?usp=sharing",
+        icon: Icons.resume,
+      },
     },
   },
   work: [

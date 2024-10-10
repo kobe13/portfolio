@@ -40,6 +40,12 @@ const IndexPage: React.FC<PageProps> = () => {
           >
             <DATA.contact.social.GitHub.icon />
           </a>
+          <a
+            className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium focus-visible:outline-none rounded-full size-12"
+            href={DATA.contact.social.Resume.url}
+          >
+            <DATA.contact.social.Resume.icon />
+          </a>
         </div>
       </section>
 
@@ -83,7 +89,7 @@ const IndexPage: React.FC<PageProps> = () => {
         </div>
         <div className="space-y-12 w-full py-2">
           <ul className="mb-4 divide-y divide-dashed border-l">
-            {DATA.work.map((project, id) => (
+            {DATA.work.map((project) => (
               <WorkCard
                 title={project.title}
                 description={project.description}

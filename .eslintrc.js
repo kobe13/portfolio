@@ -6,5 +6,6 @@ module.exports = {
   plugins: ["prettier"],
   rules: {
     "prettier/prettier": "error",
+    "react/jsx-pascal-case": "off",
   },
 };
