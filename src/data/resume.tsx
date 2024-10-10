@@ -3,7 +3,7 @@ import { Icons } from "../components/icons";
 export const DATA = {
   name: "Bryan",
   url: "https://kobe13.github.io/portfolio/",
-  description: `A passionate and seasoned front end engineer specialized in React, looking for remote exciting missions.`,
+  description: `A passionate and seasoned front end engineer specialized in React, looking for new opportunities to grow and contribute to innovative projects. Based in France and working remotely.`,
   keySkills: [
     "★ Engineer with over 13 years of experience with international companies and startups.",
     "★ Expertise in modern front end web technologies, including 7 years of experience with React and TypeScript.",
@@ -107,7 +107,7 @@ export const DATA = {
       dates: "September 2017 - November 2018",
       location: "Munich, Germany",
       description: [
-        "➾ Developing front-end projects using React JS, Redux and TypeScript with responsive design, and performance as key focuses.",
+        "➾ Developing front-end part of the price comparison site with responsive design, cross-browser compatibility and performance as key focuses.",
       ],
       skills: [
         "React JS",
@@ -116,6 +116,22 @@ export const DATA = {
         "Jest",
         "HTML 5",
         "SCSS/SASS",
+        "responsive design",
+      ],
+    },
+    {
+      title: "senior frontend engineer at CHIP",
+      dates: "November 2016 - September 2017",
+      location: "Munich, Germany",
+      description: [
+        "➾ Developing front-end projects using React JS, Redux and TypeScript with responsive design, and performance as key focuses.",
+      ],
+      skills: [
+        "JavaScript",
+        "HTML 5",
+        "SCSS/SASS",
+        "CSS 3",
+        "pixel-perfect",
         "responsive design",
       ],
     },

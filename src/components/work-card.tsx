@@ -17,7 +17,7 @@ export function WorkCard({
   skills,
 }: Props) {
   return (
-    <li className="relative ml-10 py-4">
+    <li className="relative pl-6 py-4">
       <div className="flex flex-1 flex-col justify-start gap-1">
         {dates && (
           <time className="text-xs text-muted-foreground">{dates}</time>

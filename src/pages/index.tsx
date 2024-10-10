@@ -82,7 +82,7 @@ const IndexPage: React.FC<PageProps> = () => {
           </div>
         </div>
         <div className="space-y-12 w-full py-2">
-          <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+          <ul className="mb-4 divide-y divide-dashed border-l">
             {DATA.work.map((project, id) => (
               <WorkCard
                 title={project.title}
@@ -110,7 +110,7 @@ const IndexPage: React.FC<PageProps> = () => {
               >
                 email
               </a>{" "}
-              and I&apos;ll respond whenever I can.
+              and I'll get back to you as soon as possible.
             </p>
           </div>
         </div>
