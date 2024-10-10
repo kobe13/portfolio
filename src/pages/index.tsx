@@ -50,7 +50,7 @@ const IndexPage: React.FC<PageProps> = () => {
       </section>
 
       <section id="skills">
-        <div className="mt-10 text-center">
+        <div className="mt-10">
           <div className="space-y-2">
             <h2 className="text-3xl text-gray-700 font-bold tracking-tighter sm:text-4xl">
               skills
@@ -58,14 +58,14 @@ const IndexPage: React.FC<PageProps> = () => {
           </div>
         </div>
         <div className="space-y-12 w-full py-2">
-          <div className="mt-2 flex flex-row flex-wrap justify-center gap-2">
+          <div className="mt-2 flex flex-row flex-wrap justify-start gap-2">
             {DATA.skills.map((skill, idx) => (
               <Badge key={idx} title={skill}>
                 {skill}
               </Badge>
             ))}
           </div>
-          <ul className="mt-2 flex flex-row flex-wrap justify-center gap-2">
+          <ul className="mt-2 flex flex-row flex-wrap justify-start gap-2">
             {DATA.keySkills.map((skill, idx) => (
               <li
                 className="md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
@@ -80,7 +80,7 @@ const IndexPage: React.FC<PageProps> = () => {
       </section>
 
       <section id="work">
-        <div className="mt-10 text-center">
+        <div className="mt-10">
           <div className="space-y-2">
             <h2 className="text-3xl text-gray-700 font-bold tracking-tighter sm:text-4xl">
               latest work experience
@@ -103,10 +103,10 @@ const IndexPage: React.FC<PageProps> = () => {
       </section>
 
       <section id="contact">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+        <div className="grid items-center justify-start gap-4 px-4 md:px-6 w-full py-12">
           <div className="space-y-3">
             <h2 className="text-3xl text-gray-700 font-bold tracking-tighter sm:text-4xl">
-              Get in Touch
+              get in touch
             </h2>
             <p className="mx-auto text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Want to chat? Just send me an{" "}
