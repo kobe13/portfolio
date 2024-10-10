@@ -10,9 +10,9 @@ const IndexPage: React.FC<PageProps> = () => {
     <main>
       <section
         id="presentation"
-        className=" text-center container mx-auto px-4 py-10 bg-gradient-to-b from-slate-400 to-slate-100"
+        className="flex flex-col items-center justify-center container mx-auto px-4 py-10 bg-gradient-to-b from-slate-400 to-slate-100"
       >
-        <h1 className="flex flex-row items-center justify-center text-5xl text-white mb-8 font-bold tracking-tighter sm:text-6xl xl:text-6xl/none">
+        <h1 className="flex flex-row items-center text-5xl text-white mb-8 font-bold tracking-tighter sm:text-6xl xl:text-6xl/none">
           Hi, I'm {DATA.name}
           <StaticImage
             className="relative flex overflow-hidden rounded-full ml-4"
@@ -24,8 +24,8 @@ const IndexPage: React.FC<PageProps> = () => {
             placeholder="blurred"
           />
         </h1>
-        <p className="text-lg font-bold text-gray-700 italic">
-          {DATA.description}
+        <p className="text-center text-lg font-bold text-gray-700 italic max-w-3xl">
+          {DATA.presentation}
         </p>
         <div className="flex flex-row justify-center gap-4 mt-8">
           <a

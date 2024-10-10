@@ -3,7 +3,8 @@ import { Icons } from "../components/icons";
 export const DATA = {
   name: "Bryan",
   url: "https://kobe13.github.io/portfolio/",
-  description: `A passionate and seasoned front end engineer specialized in React, looking for new opportunities to grow and contribute to innovative projects. Based in France and working remotely.`,
+  presentation:
+    "A passionate and seasoned front end engineer specialized in React, looking for new opportunities to contribute to innovative projects. Based in France and working remotely.",
   keySkills: [
     "★ Engineer with over 13 years of experience with international companies and startups.",
     "★ Expertise in modern front end web technologies, including 7 years of experience with React and TypeScript.",
