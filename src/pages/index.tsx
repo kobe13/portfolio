@@ -10,7 +10,7 @@ const IndexPage: React.FC<PageProps> = () => {
     <main>
       <section
         id="presentation"
-        className="flex flex-col items-center justify-center text-center container px-4 py-10 bg-gradient-to-b from-slate-400 to-slate-100"
+        className="flex flex-col items-center justify-center text-center px-4 py-10 bg-gradient-to-b from-slate-400 to-slate-100"
       >
         <h1 className="flex flex-row items-center text-5xl text-white mb-8 font-bold tracking-tighter sm:text-6xl xl:text-6xl/none">
           Hi, I'm {DATA.name}
