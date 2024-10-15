@@ -26,6 +26,7 @@ export const DATA = {
     "Git",
     "Github",
     "GitHub Actions",
+    "Wordpress",
     "SCSS/SASS",
     "CSS 3",
     "Material UI",
