@@ -1,11 +1,19 @@
-import * as React from "react";
-import type { HeadFC, PageProps } from "gatsby";
-import { DATA } from "../data/resume";
-import { WorkCard } from "../components/work-card";
-import { Badge } from "../components/badge";
+import React from "react";
+import { HeadFC, PageProps } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
+import { Badge, WorkCard } from "../components";
+import { DATA } from "../data/resume";
 
 const IndexPage: React.FC<PageProps> = () => {
+  const socialIcons = React.useMemo(
+    () => ({
+      LinkedIn: <DATA.contact.social.LinkedIn.icon />,
+      GitHub: <DATA.contact.social.GitHub.icon />,
+      Resume: <DATA.contact.social.Resume.icon />,
+    }),
+    [],
+  );
+
   return (
     <main>
       <section
@@ -32,19 +40,19 @@ const IndexPage: React.FC<PageProps> = () => {
             className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium focus-visible:outline-none rounded-full size-12"
             href={DATA.contact.social.LinkedIn.url}
           >
-            <DATA.contact.social.LinkedIn.icon />
+            {socialIcons.LinkedIn}
           </a>
           <a
             className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium focus-visible:outline-none rounded-full size-12"
             href={DATA.contact.social.GitHub.url}
           >
-            <DATA.contact.social.GitHub.icon />
+            {socialIcons.GitHub}
           </a>
           <a
             className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium focus-visible:outline-none rounded-full size-12"
             href={DATA.contact.social.Resume.url}
           >
-            <DATA.contact.social.Resume.icon />
+            {socialIcons.Resume}
           </a>
         </div>
       </section>
@@ -89,15 +97,18 @@ const IndexPage: React.FC<PageProps> = () => {
         </div>
         <div className="space-y-12 w-full py-2">
           <ul className="mb-4 divide-y divide-dashed border-l">
-            {DATA.work.map((project) => (
-              <WorkCard
-                title={project.title}
-                description={project.description}
-                location={project.location}
-                dates={project.dates}
-                skills={project.skills}
-              />
-            ))}
+            {DATA.work.map(
+              ({ id, title, description, location, dates, skills }) => (
+                <WorkCard
+                  key={id}
+                  title={title}
+                  description={description}
+                  location={location}
+                  dates={dates}
+                  skills={skills}
+                />
+              ),
+            )}
           </ul>
         </div>
       </section>

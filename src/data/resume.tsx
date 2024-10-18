@@ -1,4 +1,4 @@
-import { Icons } from "../components/icons";
+import { Icons } from "../components";
 
 export const DATA = {
   name: "Bryan",
@@ -63,6 +63,7 @@ export const DATA = {
   },
   work: [
     {
+      id: "stuart-2019",
       title: "lead frontend engineer at Stuart",
       dates: "June 2019 - June 2024",
       location: "Remote, France",
@@ -97,6 +98,7 @@ export const DATA = {
       ],
     },
     {
+      id: "data-soluce-2018",
       title: "lead frontend engineer at Data Soluce",
       dates: "Dec 2018 – May 2019",
       location: "Remote, France",
@@ -122,6 +124,7 @@ export const DATA = {
       ],
     },
     {
+      id: "scout24-2017",
       title: "senior frontend engineer at Scout24 Group",
       dates: "September 2017 - November 2018",
       location: "Munich, Germany",
@@ -142,6 +145,7 @@ export const DATA = {
       ],
     },
     {
+      id: "chip-2016",
       title: "senior frontend engineer at CHIP",
       dates: "November 2016 - September 2017",
       location: "Munich, Germany",
