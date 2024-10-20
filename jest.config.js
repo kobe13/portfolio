@@ -18,4 +18,7 @@ module.exports = {
     url: `http://localhost`,
   },
   setupFilesAfterEnv: [`<rootDir>/setup-test-env.js`],
+  collectCoverage: true,
+  collectCoverageFrom: ["src/**/*.{ts,tsx}", "!src/**/*.d.ts"],
+  coverageDirectory: "<rootDir>/coverage",
 };
