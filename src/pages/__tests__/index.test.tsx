@@ -1,6 +1,5 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import "@testing-library/jest-dom";
 import { DATA } from "../../data/resume";
 import IndexPage from "../index";
 import { PageProps } from "gatsby";
