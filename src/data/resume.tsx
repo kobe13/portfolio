@@ -4,7 +4,7 @@ export const DATA = {
   name: "Bryan",
   url: "https://kobe13.github.io/portfolio/",
   presentation:
-    "A passionate and seasoned front end engineer specialized in React, looking for new opportunities to contribute to innovative projects. Based in France and working remotely.",
+    "A passionate and experienced front-end engineer specializing in React, dedicated to contributing to innovative projects. Based in France and working remotely.",
   keySkills: [
     "★ Engineer with over 13 years of experience with international companies and startups.",
     "★ Expertise in modern front end web technologies, including 7 years of experience with React and TypeScript.",
