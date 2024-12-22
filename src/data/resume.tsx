@@ -38,7 +38,7 @@ export const DATA = {
     "Next.js",
     "GraphQL",
     "Apollo Client",
-    "Micro-end",
+    "Micro-frontend",
     "Webpack",
   ],
   contact: {
@@ -64,13 +64,13 @@ export const DATA = {
   work: [
     {
       id: "stuart-2019",
-      title: "lead  end engineer at Stuart",
+      title: "lead front end engineer at Stuart",
       dates: "June 2019 - June 2024",
       location: "Remote, France",
       description: [
         "➾ Developing internal and external user driven web applications using REST and GraphQL APIs.",
         "➾ Setting up front end architecture for new projects such as creating internal frameworks with micro-frontend (module federation) and custom npm packages.",
-        "➾ Setting the front End technical guidelines at Stuart through documentation and Community of practice gatherings.",
+        "➾ Setting the front end technical guidelines at Stuart through documentation and Community of practice gatherings.",
         "➾ Leading the hiring process of new developers (interviews, test reviews...).",
         "➾ Mentoring junior developers through pair programming and pull requests reviews.",
         "➾ Writing technical documentation.",
