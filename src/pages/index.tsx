@@ -1,6 +1,7 @@
 import React from "react";
 import { HeadFC, PageProps } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
+import { motion } from "motion/react";
 import { Badge, WorkCard } from "../components";
 import { DATA } from "../data/resume";
 import { socialIcons } from "../constants";
@@ -59,9 +60,14 @@ const IndexPage: React.FC<PageProps> = () => (
       <div className="space-y-12 w-full py-2">
         <div className="mt-2 flex flex-row flex-wrap justify-start gap-2">
           {DATA.skills.map((skill, idx) => (
-            <Badge key={idx} title={skill}>
-              {skill}
-            </Badge>
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: idx * 0.1, duration: 0.5 }}
+            >
+              <Badge title={skill}>{skill}</Badge>
+            </motion.div>
           ))}
         </div>
         <ul className="mt-2 flex flex-row flex-wrap justify-start gap-2">
