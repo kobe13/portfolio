@@ -4,7 +4,7 @@ export const DATA = {
   name: "Bryan",
   url: "https://kobe13.github.io/portfolio/",
   presentation:
-    "A passionate and experienced front-end engineer specializing in React, dedicated to contributing to innovative projects. Based in France and working remotely.",
+    "A passionate and experienced front end engineer specializing in React, dedicated to contributing to innovative projects. Based in France and working remotely.",
   keySkills: [
     "★ Engineer with over 13 years of experience with international companies and startups.",
     "★ Expertise in modern front end web technologies, including 7 years of experience with React and TypeScript.",
@@ -38,7 +38,7 @@ export const DATA = {
     "Next.js",
     "GraphQL",
     "Apollo Client",
-    "Micro-frontend",
+    "Micro-end",
     "Webpack",
   ],
   contact: {
@@ -64,13 +64,13 @@ export const DATA = {
   work: [
     {
       id: "stuart-2019",
-      title: "lead frontend engineer at Stuart",
+      title: "lead  end engineer at Stuart",
       dates: "June 2019 - June 2024",
       location: "Remote, France",
       description: [
         "➾ Developing internal and external user driven web applications using REST and GraphQL APIs.",
-        "➾ Setting up Front End architecture for new projects such as creating internal frameworks with micro-frontend (module federation) and custom npm packages.",
-        "➾ Setting the Front End technical guidelines at Stuart through documentation and Community of practice gatherings.",
+        "➾ Setting up front end architecture for new projects such as creating internal frameworks with micro-frontend (module federation) and custom npm packages.",
+        "➾ Setting the front End technical guidelines at Stuart through documentation and Community of practice gatherings.",
         "➾ Leading the hiring process of new developers (interviews, test reviews...).",
         "➾ Mentoring junior developers through pair programming and pull requests reviews.",
         "➾ Writing technical documentation.",
@@ -99,11 +99,11 @@ export const DATA = {
     },
     {
       id: "data-soluce-2018",
-      title: "lead frontend engineer at Data Soluce",
+      title: "lead front end engineer at Data Soluce",
       dates: "Dec 2018 – May 2019",
       location: "Remote, France",
       description: [
-        "➾ Setting up Front End architecture.",
+        "➾ Setting up front end architecture.",
         "➾ Mentoring junior developers.",
         "➾ Writing technical documentation.",
       ],
@@ -125,11 +125,11 @@ export const DATA = {
     },
     {
       id: "scout24-2017",
-      title: "senior frontend engineer at Scout24 Group",
+      title: "senior front end engineer at Scout24 Group",
       dates: "September 2017 - November 2018",
       location: "Munich, Germany",
       description: [
-        "➾ Developing front-end part of the price comparison site with responsive design, cross-browser compatibility and performance as key focuses.",
+        "➾ Developing front end part of the price comparison site with responsive design, cross-browser compatibility and performance as key focuses.",
       ],
       skills: [
         "React JS",
@@ -146,11 +146,11 @@ export const DATA = {
     },
     {
       id: "chip-2016",
-      title: "senior frontend engineer at CHIP",
+      title: "senior front end engineer at CHIP",
       dates: "November 2016 - September 2017",
       location: "Munich, Germany",
       description: [
-        "➾ Developing front-end projects using React JS, Redux and TypeScript with responsive design, and performance as key focuses.",
+        "➾ Developing front end projects using React JS, Redux and TypeScript with responsive design, and performance as key focuses.",
       ],
       skills: [
         "JavaScript",
