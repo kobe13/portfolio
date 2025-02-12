@@ -9,9 +9,9 @@ export const DATA = {
     "★ Engineer with over 13 years of experience with international companies and startups.",
     "★ Expertise in modern front end web technologies, including 7 years of experience with React and TypeScript.",
     "★ Expertise in setting new projects front end architecture.",
-    "★ Proven track record of delivering high-quality, responsive, and performant web applications.",
+    "★ Proven track record of delivering high quality, responsive, and performant web applications.",
     "★ Experience working remotely and collaborating with diverse, international teams.",
-    "★ Enthusiasm for staying up-to-date with the latest web development trends and tools.",
+    "★ Enthusiasm for staying up to date with the latest web development trends and tools.",
     "★ Eagerness to dive into new challenges and continuously learn and grow.",
   ],
   skills: [
