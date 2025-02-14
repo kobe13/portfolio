@@ -1,8 +1,6 @@
-import * as React from "react";
-import { HeadFC, PageProps } from "gatsby";
-import { DATA } from "../data/resume";
+import { DATA } from "./data/resume";
 
-const NotFoundPage: React.FC<PageProps> = () => {
+const NotFound = () => {
   return (
     <main className="grid min-h-full place-items-center bg-white px-6 py-24 sm:py-32 lg:px-8">
       <div className="text-center">
@@ -26,6 +24,4 @@ const NotFoundPage: React.FC<PageProps> = () => {
   );
 };
 
-export default NotFoundPage;
-
-export const Head: HeadFC = () => <title>Not found</title>;
+export default NotFound;

@@ -1,13 +1,13 @@
 import React from "react";
 import { Badge } from "./badge";
 
-interface Props {
+type Props = {
   title: string;
   description: string[];
   dates: string;
   location: string;
   skills: string[];
-}
+};
 
 export function WorkCard({
   title,
