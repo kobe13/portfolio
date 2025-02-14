@@ -3,7 +3,7 @@ import { Badge, WorkCard } from "./components";
 import { socialIcons } from "./constants";
 import { DATA } from "./data/resume";
 
-export default function Home() {
+const Home = () => {
   return (
     <main>
       <section
@@ -124,4 +124,6 @@ export default function Home() {
       </section>
     </main>
   );
-}
+};
+
+export default Home;

@@ -9,13 +9,13 @@ type Props = {
   skills: string[];
 };
 
-export function WorkCard({
+export const WorkCard = ({
   title,
   description,
   dates,
   location,
   skills,
-}: Props) {
+}: Props) => {
   return (
     <li className="relative pl-6 py-4">
       <div className="flex flex-1 flex-col justify-start gap-1">
@@ -49,4 +49,4 @@ export function WorkCard({
       )}
     </li>
   );
-}
+};
