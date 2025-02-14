@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://portfolio-kobe13s-projects.vercel.app/">View Portfolio</a>
+  <a href="https://portfolio-phi-umber-56.vercel.app/">View Portfolio</a>
 </p>
 
 ## About
