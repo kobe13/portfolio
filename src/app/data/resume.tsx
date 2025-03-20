@@ -63,6 +63,26 @@ export const DATA = {
   },
   work: [
     {
+      id: "qonto-2024",
+      title: "staff front end engineer at Qonto",
+      dates: "December 2024 - Present",
+      location: "Remote, France",
+      description: [],
+      skills: [
+        "React JS",
+        "TypeScript",
+        "TanStack Query",
+        "Tailwind CSS",
+        "Vitest",
+        "Cypress",
+        "Git",
+        "Github",
+        "GitHub Actions",
+        "HTML 5",
+        "Web performance",
+      ],
+    },
+    {
       id: "stuart-2019",
       title: "lead front end engineer at Stuart",
       dates: "June 2019 - June 2024",
