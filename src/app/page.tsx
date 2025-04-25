@@ -15,9 +15,10 @@ const Home = () => {
           <Image
             className="relative flex overflow-hidden rounded-full ml-4"
             src="/me.jpg"
-            alt={"Bryan"}
+            alt="Bryan Nelson, Lead Front End Engineer"
             width={150}
             height={150}
+            priority
           />
         </h1>
         <p className="text-lg font-bold text-gray-700 italic max-w-3xl">
