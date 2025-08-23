@@ -1,4 +1,5 @@
 import Image from "next/image";
+import parse from "html-react-parser";
 import { Badge, WorkCard } from "./components";
 import { socialIcons } from "./constants";
 import { DATA } from "./data/resume";
@@ -47,32 +48,26 @@ const Home = () => {
       </section>
 
       <section id="skills">
-        <div className="mt-10">
+        <div className="mt-6">
           <div className="space-y-2">
             <h2 className="text-3xl text-gray-700 font-bold tracking-tighter sm:text-4xl">
               skills
             </h2>
           </div>
         </div>
+        <div className="mt-2 flex flex-row flex-wrap justify-start gap-2">
+          {DATA.skills.map((skill, idx) => (
+            <Badge key={idx} title={skill}>
+              {skill}
+            </Badge>
+          ))}
+        </div>
         <div className="space-y-12 w-full py-2">
-          <div className="mt-2 flex flex-row flex-wrap justify-start gap-2">
-            {DATA.skills.map((skill, idx) => (
-              <Badge key={idx} title={skill}>
-                {skill}
-              </Badge>
-            ))}
+          <div className="mt-8 flex flex-row flex-wrap justify-start gap-2">
+            <div className="md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              {parse(DATA.keySkills)}
+            </div>
           </div>
-          <ul className="mt-2 flex flex-row flex-wrap justify-start gap-2">
-            {DATA.keySkills.map((skill, idx) => (
-              <li
-                className="md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
-                key={idx}
-                title={skill}
-              >
-                {skill}
-              </li>
-            ))}
-          </ul>
         </div>
       </section>
 
