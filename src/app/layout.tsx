@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bryan's portfolio",
-  description: "Bryan's portfolio",
+  title: "Bryan Nelson - Staff Front End Engineer",
+  description:
+    "Staff Front End Engineer with 14+ years of experience specializing in React, TypeScript, and modern web technologies. Based in France, working remotely.",
 };
 
 const RootLayout = ({
@@ -25,7 +26,7 @@ const RootLayout = ({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-background font-sans max-w-6xl mx-auto py-12 sm:py-24 px-6`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-white font-sans`}
       >
         {children}
       </body>
