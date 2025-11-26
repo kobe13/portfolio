@@ -16,26 +16,40 @@ export const Navigation = () => {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+    // Single scroll handler: update background and compute the nearest section
+    const sectionIds = navItems.map((i) => i.id);
+
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
 
-      const sections = navItems.map((item) => item.id);
-      const current = sections.find((sectionId) => {
-        const element = document.getElementById(sectionId);
-        if (element) {
-          const rect = element.getBoundingClientRect();
-          return rect.top <= 100 && rect.bottom >= 100;
+      const offset = 80; // same offset used for scrollToSection
+      let closestId: string | null = null;
+      let minDistance = Number.POSITIVE_INFINITY;
+
+      sectionIds.forEach((id) => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        const elTop =
+          el.getBoundingClientRect().top + window.pageYOffset - offset;
+        const distance = Math.abs(elTop - window.pageYOffset);
+        if (distance < minDistance) {
+          minDistance = distance;
+          closestId = id;
         }
-        return false;
       });
 
-      if (current) {
-        setActiveSection(current);
+      if (closestId) {
+        setActiveSection(closestId);
       }
     };
 
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    // run once on mount to initialize state
+    handleScroll();
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   const scrollToSection = (sectionId: string) => {
