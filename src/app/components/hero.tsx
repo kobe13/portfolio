@@ -17,6 +17,8 @@ export const Hero = () => {
               alt={`${DATA.name}, Staff Front End Engineer`}
               width={200}
               height={200}
+              sizes="200px"
+              quality={85}
               priority
             />
           </div>
