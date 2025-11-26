@@ -7,11 +7,13 @@ const nextConfig: NextConfig = {
   },
   // Target modern browsers only
   experimental: {
-    optimizePackageImports: ["next/image"],
+    optimizePackageImports: ["next/image", "html-react-parser"],
   },
   images: {
     qualities: [75, 85],
   },
+  // Turbopack configuration
+  turbopack: {},
 };
 
 export default nextConfig;
