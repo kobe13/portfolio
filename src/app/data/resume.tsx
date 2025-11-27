@@ -1,7 +1,8 @@
 import { Icons } from "../components";
 
 export const DATA = {
-  name: "Bryan",
+  lastName: "Nelson",
+  firstName: "Bryan",
   url: "https://portfolio-phi-umber-56.vercel.app/",
   presentation:
     "A passionate and experienced front end engineer specializing in React, dedicated to contributing to innovative projects. Based in France and working remotely.",

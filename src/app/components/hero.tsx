@@ -14,7 +14,7 @@ export const Hero = () => {
             <Image
               className="relative rounded-full border-4 border-white shadow-2xl"
               src="/me.jpg"
-              alt={`${DATA.name}, Staff Front End Engineer`}
+              alt={`${DATA.firstName} ${DATA.lastName}, Staff Front End Engineer`}
               width={200}
               height={200}
               sizes="200px"
@@ -27,7 +27,7 @@ export const Hero = () => {
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 tracking-tight">
           Hi, I&apos;m{" "}
           <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            {DATA.name}
+            {DATA.firstName}
           </span>
         </h1>
 

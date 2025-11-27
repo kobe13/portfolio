@@ -80,7 +80,7 @@ export const Navigation = () => {
             onClick={() => scrollToSection("hero")}
             className="text-xl font-bold text-gray-900 hover:text-gray-700 transition-colors"
           >
-            {DATA.name}
+            {DATA.firstName} {DATA.lastName}
           </button>
 
           <div className="hidden md:flex items-center gap-8">
