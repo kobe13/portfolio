@@ -26,6 +26,7 @@ export const ExperienceSection = () => {
                   <div className="md:ml-16 bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-all duration-200">
                     <WorkCard
                       title={work.title}
+                      companyDescription={work.companyDescription}
                       description={work.description}
                       location={work.location}
                       dates={work.dates}

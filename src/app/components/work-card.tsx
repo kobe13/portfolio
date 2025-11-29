@@ -3,6 +3,7 @@ import { Badge } from "./badge";
 
 type Props = {
   title: string;
+  companyDescription?: string;
   description: string[];
   dates: string;
   location: string;
@@ -11,6 +12,7 @@ type Props = {
 
 export const WorkCard = ({
   title,
+  companyDescription,
   description,
   dates,
   location,
@@ -20,6 +22,9 @@ export const WorkCard = ({
     <div className="flex flex-1 flex-col justify-start gap-3">
       <div>
         <h3 className="text-2xl font-bold text-gray-900 mb-2">{title}</h3>
+        <p className="text-sm text-gray-500 mb-2 max-w-xl">
+          {companyDescription}
+        </p>
         <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-sm text-gray-600 mb-4">
           {dates && (
             <time className="flex items-center gap-1">
