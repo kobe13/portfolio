@@ -14,11 +14,12 @@ export const SkillsSection = () => {
           "Next.js",
           "Redux",
           "TanStack Query",
+          "React Hook Form",
           "GraphQL",
           "Apollo Client",
           "HTML 5",
           "Wordpress",
-        ].some((s) => skill.toLowerCase().includes(s.toLowerCase())),
+        ].some((s) => skill.toLowerCase().includes(s.toLowerCase()))
       ),
     },
     {
@@ -34,7 +35,7 @@ export const SkillsSection = () => {
           "Flexbox",
           "Pixel-perfect",
           "Responsive design",
-        ].some((s) => skill.toLowerCase().includes(s.toLowerCase())),
+        ].some((s) => skill.toLowerCase().includes(s.toLowerCase()))
       ),
     },
     {
@@ -47,15 +48,15 @@ export const SkillsSection = () => {
           "Webpack",
           "Node.js",
           "Micro-frontend",
-        ].some((s) => skill.toLowerCase().includes(s.toLowerCase())),
+        ].some((s) => skill.toLowerCase().includes(s.toLowerCase()))
       ),
     },
     {
       title: "Testing & Quality",
       skills: DATA.skills.filter((skill) =>
-        ["Jest", "Vitest", "Cypress", "Web performance"].some((s) =>
-          skill.toLowerCase().includes(s.toLowerCase()),
-        ),
+        ["Jest", "Vitest", "Cypress", "Playwright", "Web performance"].some(
+          (s) => skill.toLowerCase().includes(s.toLowerCase())
+        )
       ),
     },
   ];

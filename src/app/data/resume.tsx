@@ -17,6 +17,8 @@ export const DATA = {
     "Jest",
     "Vitest",
     "Cypress",
+    "Playwright",
+    "React Hook Form",
     "HTML 5",
     "Git",
     "Github",
