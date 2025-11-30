@@ -21,6 +21,13 @@ export const metadata: Metadata = {
   title: "Bryan Nelson - Staff Front End Engineer",
   description:
     "Staff Front End Engineer with 14+ years of experience specializing in React, TypeScript, and modern web technologies. Based in France, working remotely.",
+  openGraph: {
+    title: "Bryan Nelson - Staff Front End Engineer",
+    description:
+      "Staff Front End Engineer with 14+ years of experience specializing in React, TypeScript, and modern web technologies. Based in France, working remotely.",
+    url: "https://portfolio-phi-umber-56.vercel.app/",
+    type: "website",
+  },
 };
 
 const RootLayout = ({
