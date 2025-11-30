@@ -19,7 +19,7 @@ export const SkillsSection = () => {
           "Apollo Client",
           "HTML 5",
           "Wordpress",
-        ].some((s) => skill.toLowerCase().includes(s.toLowerCase()))
+        ].some((s) => skill.toLowerCase().includes(s.toLowerCase())),
       ),
     },
     {
@@ -35,7 +35,7 @@ export const SkillsSection = () => {
           "Flexbox",
           "Pixel-perfect",
           "Responsive design",
-        ].some((s) => skill.toLowerCase().includes(s.toLowerCase()))
+        ].some((s) => skill.toLowerCase().includes(s.toLowerCase())),
       ),
     },
     {
@@ -48,15 +48,15 @@ export const SkillsSection = () => {
           "Webpack",
           "Node.js",
           "Micro-frontend",
-        ].some((s) => skill.toLowerCase().includes(s.toLowerCase()))
+        ].some((s) => skill.toLowerCase().includes(s.toLowerCase())),
       ),
     },
     {
       title: "Testing & Quality",
       skills: DATA.skills.filter((skill) =>
         ["Jest", "Vitest", "Cypress", "Playwright", "Web performance"].some(
-          (s) => skill.toLowerCase().includes(s.toLowerCase())
-        )
+          (s) => skill.toLowerCase().includes(s.toLowerCase()),
+        ),
       ),
     },
   ];
