@@ -14,7 +14,7 @@ export const Hero = () => {
             <Image
               className="relative rounded-full border-4 border-white shadow-2xl"
               src="/me.jpg"
-              alt={`${DATA.firstName} ${DATA.lastName}, Staff Front End Engineer`}
+              alt={`${DATA.firstName} ${DATA.lastName}, Lead Front End Engineer`}
               width={200}
               height={200}
               sizes="200px"
