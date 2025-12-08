@@ -32,7 +32,7 @@ export const Hero = () => {
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-600 mb-4 font-medium">
-          Staff Front End Engineer
+          Lead Front End Engineer
         </p>
 
         <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-12 leading-relaxed">
