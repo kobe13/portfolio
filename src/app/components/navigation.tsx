@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { DATA } from "../data/resume";
 import { Icons } from "./icons";
+import ThemeToggle from "./theme-toggle";
 
 const navItems = [
   { id: "hero", label: "Home" },
@@ -70,7 +71,7 @@ export const Navigation = () => {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/80 backdrop-blur-md shadow-sm border-b border-gray-200"
+          ? "bg-white/80 backdrop-blur-md shadow-sm border-b border-gray-200 dark:bg-slate-900/80 dark:border-gray-800"
           : "bg-transparent"
       }`}
     >
@@ -78,7 +79,7 @@ export const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-xl font-bold text-gray-900 hover:text-gray-700 transition-colors"
+            className="text-xl font-bold text-foreground hover:text-foreground/80 transition-colors max-w-[40%] truncate"
           >
             {DATA.firstName} {DATA.lastName}
           </button>
@@ -90,8 +91,8 @@ export const Navigation = () => {
                 onClick={() => scrollToSection(item.id)}
                 className={`text-sm font-medium transition-colors relative ${
                   activeSection === item.id
-                    ? "text-gray-900"
-                    : "text-gray-600 hover:text-gray-900"
+                    ? "text-foreground"
+                    : "text-gray-600 dark:text-gray-400 hover:text-foreground"
                 }`}
               >
                 {item.label}
@@ -102,12 +103,17 @@ export const Navigation = () => {
             ))}
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
+            {/* Theme toggle sits with social icons to avoid overlap on small screens */}
+            <div className="flex items-center">
+              <ThemeToggle />
+            </div>
+
             <a
               href={DATA.contact.social.LinkedIn.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
+              className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
               aria-label="LinkedIn"
             >
               <Icons.linkedin className="w-5 h-5" />
@@ -116,7 +122,7 @@ export const Navigation = () => {
               href={DATA.contact.social.GitHub.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
+              className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
               aria-label="GitHub"
             >
               <Icons.github className="w-5 h-5" />
@@ -125,7 +131,7 @@ export const Navigation = () => {
               href={DATA.contact.social.Resume.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
+              className="inline-flex text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
               aria-label="Resume"
             >
               <Icons.resume className="w-5 h-5" />

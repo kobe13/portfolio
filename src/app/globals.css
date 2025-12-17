@@ -5,12 +5,40 @@
 :root {
   --foreground: #111827;
   --background: #ffffff;
+  --muted-background: #f8fafc; /* light surface for sections */
+}
+/* Respect OS-level preference by default */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #f3f4f6;
+    --background: #0b1220; /* near-slate/black */
+    /* match the "Get in Touch" button background in dark mode (white) */
+    --muted-background: #ffffff; /* revert to white */
+    /* use a subtle dark surface for muted sections in dark mode */
+    --muted-background: #0b1228;
+  }
 }
 
+/* Explicit class overrides (user preference) */
+html.light {
+  --foreground: #111827;
+  --background: #ffffff;
+  --muted-background: #f8fafc;
+}
+
+html.dark {
+  --foreground: #f3f4f6;
+  --background: #0b1220;
+  /* match the "Get in Touch" button background in dark mode (white) */
+  --muted-background: #ffffff; /* revert to white */
+  /* use a subtle dark surface for muted sections in dark mode */
+  --muted-background: #0b1228;
+}
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  transition: background-color 200ms ease, color 200ms ease;
 }
 
 html {

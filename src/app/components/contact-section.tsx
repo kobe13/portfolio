@@ -5,7 +5,7 @@ export const ContactSection = () => {
   return (
     <section id="contact" className="py-24 px-6 bg-gray-900 text-white">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6">
+        <h2 className="text-4xl md:text-5xl font-bold text-foreground/90 dark:text-white mb-6">
           Let&apos;s Work Together
         </h2>
         <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
@@ -16,7 +16,7 @@ export const ContactSection = () => {
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
           <a
             href={`mailto:${DATA.contact.email}?subject=${encodeURIComponent("Contact from portfolio")}`}
-            className="px-8 py-4 bg-white text-gray-900 rounded-lg font-medium hover:bg-gray-100 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center gap-2"
+            className="px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-lg font-medium hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center gap-2"
           >
             <svg
               className="w-5 h-5"

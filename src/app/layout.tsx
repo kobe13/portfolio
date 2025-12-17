@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ScrollToTop from "./components/scroll-to-top";
+import ThemeProvider from "./providers";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -56,10 +57,12 @@ const RootLayout = ({
         <meta name="theme-color" content="#111827" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-white font-sans`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen font-sans text-foreground bg-background`}
       >
-        {children}
-        <ScrollToTop />
+        <ThemeProvider>
+          {children}
+          <ScrollToTop />
+        </ThemeProvider>
       </body>
     </html>
   );

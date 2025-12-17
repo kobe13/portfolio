@@ -62,13 +62,13 @@ export const SkillsSection = () => {
   ];
 
   return (
-    <section id="skills" className="py-24 px-6 bg-gray-50">
+    <section id="skills" className="py-24 px-6 bg-muted">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             Technical Expertise
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             {parse(DATA.keySkills)}
           </p>
         </div>
@@ -77,9 +77,9 @@ export const SkillsSection = () => {
           {skillCategories.map((category, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-shadow"
+              className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow"
             >
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
+              <h3 className="text-xl font-semibold text-foreground mb-4">
                 {category.title}
               </h3>
               <div className="flex flex-wrap gap-2">

@@ -3,13 +3,13 @@ import { WorkCard } from "./work-card";
 
 export const ExperienceSection = () => {
   return (
-    <section id="experience" className="py-24 px-6">
+    <section id="experience" className="py-24 px-6 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             Professional Experience
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             A proven track record in frontend development at innovative
             companies. For my full work history, please refer to my{" "}
             <a
@@ -31,8 +31,8 @@ export const ExperienceSection = () => {
             {DATA.work.map((work) => (
               <li key={work.id} className="relative">
                 <div className="md:flex md:items-start gap-8">
-                  <div className="hidden md:block absolute left-6 w-4 h-4 bg-white border-4 border-blue-600 rounded-full -mt-1" />
-                  <div className="md:ml-16 bg-white rounded-xl p-6 shadow-sm border border-gray-200 hover:shadow-md transition-all duration-200">
+                  <div className="hidden md:block absolute left-6 w-4 h-4 bg-white dark:bg-slate-800 border-4 border-blue-600 dark:border-blue-400 rounded-full -mt-1" />
+                  <div className="md:ml-16 bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-all duration-200">
                     <WorkCard
                       title={work.title}
                       companyDescription={work.companyDescription}

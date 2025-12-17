@@ -21,11 +21,11 @@ export const WorkCard = ({
   return (
     <div className="flex flex-1 flex-col justify-start gap-3">
       <div>
-        <h3 className="text-2xl font-bold text-gray-900 mb-2">{title}</h3>
-        <p className="text-sm text-gray-500 mb-2 max-w-xl">
+        <h3 className="text-2xl font-bold text-foreground mb-2">{title}</h3>
+        <p className="text-sm text-gray-500 dark:text-gray-300 mb-2 max-w-xl">
           {companyDescription}
         </p>
-        <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-sm text-gray-600 mb-4">
+        <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-4">
           {dates && (
             <time className="flex items-center gap-1">
               <svg
@@ -76,9 +76,11 @@ export const WorkCard = ({
           {description.map((desc, idx) => (
             <li
               key={idx}
-              className="text-gray-700 leading-relaxed flex items-start gap-3"
+              className="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-3"
             >
-              <span className="text-blue-600 flex-shrink-0 mt-0.5">▸</span>
+              <span className="text-blue-600 dark:text-blue-400 flex-shrink-0 mt-0.5">
+                ▸
+              </span>
               <span className="flex-1">{desc.replace("➾", "").trim()}</span>
             </li>
           ))}
@@ -86,8 +88,8 @@ export const WorkCard = ({
       )}
 
       {skills && skills.length > 0 && (
-        <div className="mt-4 pt-4 border-t border-gray-200">
-          <p className="text-sm font-medium text-gray-500 mb-3">
+        <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+          <p className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-3">
             Technologies:
           </p>
           <div className="flex flex-row flex-wrap justify-start gap-2">
