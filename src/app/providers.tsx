@@ -28,13 +28,6 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       document.documentElement.classList.remove("dark", "light");
       dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
     }
-
-    // We intentionally set React state here after reading browser APIs.
-    // This may trigger a re-render but avoids hydration mismatches; the
-    // rule is disabled because we cannot determine the theme any other
-    // way on the client without using an effect.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setIsDark(dark);
   }, []);
 
   const toggleTheme = () => {
