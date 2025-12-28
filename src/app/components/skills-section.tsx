@@ -5,7 +5,7 @@ import { Badge } from "./badge";
 export const SkillsSection = () => {
   const skillCategories = [
     {
-      title: "Frontend",
+      title: "Front End",
       skills: DATA.skills.filter((skill) =>
         [
           "React JS",
