@@ -86,7 +86,7 @@ export const DATA = {
         "➾ Building complex pre-accounting tools to automate SME finance workflows and reconciliation.",
         "➾ Planning and shaping new features in close collaboration with product and design stakeholders to ensure alignment with user needs and business goals.",
         "➾ Ensuring performance and reliability through code-splitting, rendering optimizations, comprehensive testing, and monitoring.",
-        "➾ Participating in global cross-team frontend initiatives, contributing to shared frameworks, best practices, and internal libraries.",
+        "➾ Participating in global cross-team front end initiatives, contributing to shared frameworks, best practices, and internal libraries.",
       ],
       skills: [
         "React JS",
