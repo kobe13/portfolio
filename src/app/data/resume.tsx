@@ -7,51 +7,57 @@ export const DATA = {
   presentation:
     "A passionate and experienced front end engineer specializing in React, dedicated to contributing to innovative projects. Based in France and working remotely.",
   keySkills:
-    "<strong>Front end engineer with over 14 years of experience</strong>, specializing in modern web technologies like React and TypeScript (8+ years). Proven expertise in architecting new projects and delivering high quality, performant, and responsive web applications. A collaborative and adaptable professional with a strong background in international and remote team environments.",
+    "Staff / Lead Frontend Engineer with <strong> 14+ years of experience in frontend engineering</strong>, building <strong>scalable, high performance</strong> web applications. <strong>Deep expertise in React and TypeScript (8+ years), frontend architecture</strong>, and developer experience. Proven track record <strong>leading teams</strong>, defining technical standards, and delivering <strong>business critical products</strong> in fully remote, international environments.",
   skills: [
     {
-      title: "Front End",
+      title: "Core Technology",
       skills: [
-        "React JS",
+        "React",
         "TypeScript",
-        "JavaScript",
         "Next.js",
-        "Redux",
         "TanStack Query",
-        "React Hook Form",
+        "Redux",
         "GraphQL",
         "Apollo Client",
-        "HTML 5",
-        "Wordpress",
+        "React Hook Form",
       ],
     },
     {
-      title: "Styling & Design",
+      title: "Frontend Architecture",
       skills: [
-        "Tailwind CSS",
+        "Micro-frontends",
+        "Design systems",
+        "Performance optimization",
+        "Web performance",
+        "Accessibility (A11Y)",
+      ],
+    },
+    {
+      title: "Design & Styling",
+      skills: [
         "Material UI",
+        "Tailwind CSS",
         "Styled-components",
-        "SCSS/SASS",
-        "CSS 3",
-        "Flexbox",
-        "Pixel-perfect",
         "Responsive design",
       ],
     },
     {
-      title: "Tools & Infrastructure",
+      title: "Development Practices",
       skills: [
-        "Git",
-        "GitHub",
-        "GitHub Actions",
-        "Webpack",
-        "Node.js",
-        "Micro-frontend",
+        "Code reviews",
+        "Pair programming",
+        "CI/CD pipelines",
+        "Agile/Scrum methodologies",
       ],
     },
+
     {
       title: "Testing & Quality",
-      skills: ["Jest", "Vitest", "Cypress", "Playwright", "Web performance"],
+      skills: ["Cypress (E2E)", "Vitest/Jest (Unit)", "Playwright"],
+    },
+    {
+      title: "Tools & Infrastructure",
+      skills: ["Git", "GitHub Actions", "Webpack", "Node.js"],
     },
   ],
   contact: {
@@ -83,10 +89,10 @@ export const DATA = {
       dates: "December 2024 - Present",
       location: "Remote, France",
       description: [
-        "➾ Building complex pre-accounting tools to automate SME finance workflows and reconciliation.",
-        "➾ Planning and shaping new features in close collaboration with product and design stakeholders to ensure alignment with user needs and business goals.",
-        "➾ Ensuring performance and reliability through code-splitting, rendering optimizations, comprehensive testing, and monitoring.",
-        "➾ Participating in global cross-team front end initiatives, contributing to shared frameworks, best practices, and internal libraries.",
+        "➾ Engineered complex pre-accounting tools automating SME finance workflows,reducing manual reconciliation effort for business users.",
+        "➾ Shaped the feature roadmap and technical specifications in close collaboration with Product and Design, ensuring alignment with user needs and business KPIs.",
+        "➾ Optimized application performance and reliability by implementing strategic code-splitting, rendering optimizations, and comprehensive E2E/Unit testing.",
+        "➾ Contributed to global, cross team front end initiatives by enhancing shared frameworks and establishing best practices.",
       ],
       skills: [
         "React JS",
@@ -113,12 +119,10 @@ export const DATA = {
       dates: "June 2019 - June 2024",
       location: "Remote, France",
       description: [
-        "➾ Developing internal and external user driven web applications using REST and GraphQL APIs.",
-        "➾ Setting up front end architecture for new projects such as creating internal frameworks with micro-frontend (module federation) and custom npm packages.",
-        "➾ Setting the front end technical guidelines at Stuart through documentation and Community of practice gatherings.",
-        "➾ Leading the hiring process of new developers (interviews, test reviews...).",
-        "➾ Mentoring junior developers through pair programming and pull requests reviews.",
-        "➾ Writing technical documentation.",
+        "➾ Led the development of mission critical applications by leading the front end team in the adoption and implementation of REST and GraphQL APIs.",
+        "➾ Architected a scalable and maintainable front-end ecosystem by establishing micro-frontends and designing custom internal NPM packages and frameworks.",
+        "➾ Elevated front end development standards across the company by defining and disseminating technical guidelines through documentation and leading community of practice sessions.",
+        "➾ Mentored and guided team members, while leading the full cycle hiring and recruitment process for the front end department.",
       ],
       skills: [
         "JavaScript",
@@ -150,9 +154,8 @@ export const DATA = {
       dates: "Dec 2018 – May 2019",
       location: "Remote, France",
       description: [
-        "➾ Setting up front end architecture.",
-        "➾ Mentoring junior developers.",
-        "➾ Writing technical documentation.",
+        "➾ Established front end architecture and selected a robust tech stack, including testing and linting tools.",
+        "➾ Provided mentorship to junior developers and wrote detailed technical documentation.",
       ],
       skills: [
         "React",
@@ -178,7 +181,8 @@ export const DATA = {
       dates: "September 2017 - November 2018",
       location: "Munich, Germany",
       description: [
-        "➾ Developing front end part of the price comparison site with responsive design, cross-browser compatibility and performance as key focuses.",
+        "➾ Delivered high-quality, responsive, and performant front end solutions for AutoScout24 projects using React, Redux, and TypeScript and Jest for unit testing.",
+        "➾ Awarded 'Q2 Winner' of the Tech HackWeek 2018 for a project focused on Blockchain and Peer-2-Peer technology.",
       ],
       skills: [
         "React JS",
@@ -201,7 +205,8 @@ export const DATA = {
       dates: "November 2016 - September 2017",
       location: "Munich, Germany",
       description: [
-        "➾ Developing front end projects using React JS, Redux and TypeScript with responsive design, and performance as key focuses.",
+        "➾ Engineered a high performing and responsive front end for a price comparison site.",
+        "➾ Developed a custom JavaScript framework to ensure pixel perfect, cross-browser compatibility.",
       ],
       skills: [
         "JavaScript",
