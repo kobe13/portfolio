@@ -142,7 +142,7 @@ export const DATA = {
         "Material UI",
         "Web performance",
         "Responsive design",
-        "Micro-frontend",
+        "Micro-frontends",
         "Webpack",
       ],
     },
