@@ -32,7 +32,7 @@ export const ExperienceSection = () => {
               <li key={work.id} className="relative">
                 <div className="md:flex md:items-start gap-8">
                   <div className="hidden md:block absolute left-6 w-4 h-4 bg-white dark:bg-slate-800 border-4 border-blue-600 dark:border-blue-400 rounded-full -mt-1" />
-                  <div className="md:ml-16 bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-all duration-200">
+                  <div className="md:ml-16 md:flex-1 w-full bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-all duration-200">
                     <WorkCard
                       title={work.title}
                       companyDescription={work.companyDescription}
