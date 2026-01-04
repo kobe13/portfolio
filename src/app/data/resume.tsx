@@ -53,7 +53,7 @@ export const DATA = {
 
     {
       title: "Testing & Quality",
-      skills: ["Cypress (E2E)", "Vitest/Jest (Unit)", "Playwright"],
+      skills: ["Cypress/Playwright (E2E)", "Vitest/Jest (Unit)"],
     },
     {
       title: "Tools & Infrastructure",
