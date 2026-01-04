@@ -4,10 +4,10 @@ import { Badge } from "./badge";
 type Props = {
   title: string;
   companyDescription?: string;
-  description: string[];
-  dates: string;
-  location: string;
-  skills: string[];
+  description?: string[];
+  dates?: string;
+  location?: string;
+  skills?: string[];
 };
 
 export const WorkCard = ({
@@ -22,7 +22,7 @@ export const WorkCard = ({
     <div className="flex flex-1 flex-col justify-start gap-3">
       <div>
         <h3 className="text-2xl font-bold text-foreground mb-2">{title}</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-300 mb-2 max-w-xl">
+        <p className="text-sm text-gray-500 dark:text-gray-300 mb-2">
           {companyDescription}
         </p>
         <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-4">

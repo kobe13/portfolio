@@ -13,12 +13,12 @@ export const ExperienceSection = () => {
             A proven track record in front end development at innovative
             companies. For my full work history, please refer to my{" "}
             <a
-              href={DATA.contact.social.Resume.url}
+              href={DATA.contact.social.LinkedIn.url}
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline font-medium"
             >
-              resume
+              LinkedIn profile
             </a>
             .
           </p>

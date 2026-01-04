@@ -83,7 +83,7 @@ export const DATA = {
   work: [
     {
       id: "qonto-2024",
-      title: "staff front end engineer at Qonto",
+      title: "Staff Front End Engineer at Qonto",
       companyDescription:
         "Leading European business finance solution for SMEs and freelancers.",
       dates: "December 2024 - Present",
@@ -113,7 +113,7 @@ export const DATA = {
     },
     {
       id: "stuart-2019",
-      title: "lead front end engineer at Stuart",
+      title: "Lead Front End Engineer at Stuart",
       companyDescription:
         "Last mile delivery platform that connects small and big businesses to a fleet of couriers.",
       dates: "June 2019 - June 2024",
@@ -148,7 +148,7 @@ export const DATA = {
     },
     {
       id: "data-soluce-2018",
-      title: "lead front end engineer at Data Soluce",
+      title: "Lead Front End Engineer at Data Soluce",
       companyDescription:
         "Platform for collaboration across the lifecycle of real estate development and maintenance.",
       dates: "Dec 2018 – May 2019",
@@ -175,7 +175,7 @@ export const DATA = {
     },
     {
       id: "scout24-2017",
-      title: "senior front end engineer at Scout24 Group",
+      title: "Senior Front End Engineer at Scout24 Group",
       companyDescription:
         "Operator of leading digital marketplaces in Germany and other selected European countries.",
       dates: "September 2017 - November 2018",
@@ -199,7 +199,7 @@ export const DATA = {
     },
     {
       id: "chip-2016",
-      title: "senior front end engineer at CHIP",
+      title: "Senior Front End Engineer at CHIP",
       companyDescription:
         "Leading online provider in the digital consulting segment in Germany and Europe.",
       dates: "November 2016 - September 2017",
@@ -219,6 +219,13 @@ export const DATA = {
         "Github",
         "Web performance",
       ],
+    },
+    {
+      id: "early-career",
+      title: "Early Career — International Front end Engineering",
+      dates: "2011 - 2016",
+      companyDescription:
+        "Early career across international companies in France, Slovakia, and the Czech Republic. Built strong foundations in responsive design, cross-browser compatibility, and stakeholder collaboration, with early leadership exposure. Recognized with multiple corporate awards (Dell, Pixmania).",
     },
   ],
 };
