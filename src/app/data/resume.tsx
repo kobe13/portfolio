@@ -91,7 +91,7 @@ export const DATA = {
       description: [
         "➾ Engineered complex pre-accounting tools automating SME finance workflows,reducing manual reconciliation effort for business users.",
         "➾ Shaped the feature roadmap and technical specifications in close collaboration with Product and Design, ensuring alignment with user needs and business KPIs.",
-        "➾ Optimized application performance and reliability by implementing strategic code-splitting, rendering optimizations, and comprehensive E2E/Unit testing.",
+        "➾ Optimized application performance and reliability by implementing strategic code-splitting, rendering optimizations, and comprehensive E2E/Integration/Unit testing.",
         "➾ Contributed to global, cross team front end initiatives by enhancing shared frameworks and establishing best practices.",
       ],
       skills: [
