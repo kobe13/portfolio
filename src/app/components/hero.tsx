@@ -14,7 +14,7 @@ export const Hero = () => {
             <Image
               className="relative rounded-full border-4 border-white shadow-2xl"
               src="/me.jpg"
-              alt={`${DATA.firstName} ${DATA.lastName}, Lead Front End Engineer`}
+              alt={`${DATA.firstName} ${DATA.lastName}, Staff Front End Engineer`}
               width={200}
               height={200}
               sizes="200px"
@@ -32,7 +32,7 @@ export const Hero = () => {
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-4 font-medium">
-          Lead Front End Engineer
+          Staff Front End Engineer
         </p>
 
         <p className="text-lg md:text-xl text-gray-500 dark:text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed">
