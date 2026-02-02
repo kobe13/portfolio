@@ -19,9 +19,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bryan Nelson - Lead Front End Engineer",
+  title: "Bryan Nelson - Staff Front End Engineer",
   description:
-    "Lead Front End Engineer with 14+ years of experience specializing in React, TypeScript, and modern web technologies. Based in France, working remotely.",
+    "Staff / Lead Front End Engineer with 14+ years of experience specializing in React, TypeScript, and modern web technologies. Based in France, working remotely.",
   robots: "index, follow",
   icons: {
     icon: "/favicon.svg",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Bryan Nelson - Lead Front End Engineer",
     description:
-      "Lead Front End Engineer with 14+ years of experience specializing in React, TypeScript, and modern web technologies. Based in France, working remotely.",
+      "Staff / Lead Front End Engineer with 14+ years of experience specializing in React, TypeScript, and modern web technologies. Based in France, working remotely.",
     url: "https://portfolio-phi-umber-56.vercel.app/",
     type: "website",
     images: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
         url: "https://portfolio-phi-umber-56.vercel.app/me.jpg",
         width: 200,
         height: 200,
-        alt: "Bryan Nelson - Lead Front End Engineer",
+        alt: "Bryan Nelson - Staff Front End Engineer",
       },
     ],
   },
