@@ -7,7 +7,7 @@ export const DATA = {
   presentation:
     "A passionate and experienced front end engineer specializing in React, dedicated to contributing to innovative projects. Based in France and working remotely.",
   keySkills:
-    "Staff / Lead Front End Engineer with <strong> 14+ years of experience in front end engineering</strong>, building <strong>scalable, high performance</strong> web applications. <strong>Deep expertise in React and TypeScript (8+ years), front end architecture</strong>, and developer experience. Proven track record <strong>leading teams</strong>, defining technical standards, and delivering <strong>business critical products</strong> in fully remote, international environments.",
+    "Staff Front End Engineer with <strong> 14+ years of experience in front end engineering</strong>, building <strong>scalable, high performance</strong> web applications. <strong>Deep expertise in React and TypeScript (8+ years), front end architecture</strong>, and developer experience. Proven track record <strong>leading teams</strong>, defining technical standards, and delivering <strong>business critical products</strong> in fully remote, international environments.",
   skills: [
     {
       title: "Core Technology",
