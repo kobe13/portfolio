@@ -10,7 +10,7 @@ export const ExperienceSection = () => {
             Professional Experience
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            A proven track record in front end development at innovative
+            A proven track record in frontend development at innovative
             companies. For my full work history, please refer to my{" "}
             <a
               href={DATA.contact.social.LinkedIn.url}
