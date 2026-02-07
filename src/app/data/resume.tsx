@@ -15,6 +15,7 @@ export const DATA = {
         "React",
         "TypeScript",
         "Next.js",
+        "Node.js",
         "TanStack Query",
         "Redux",
         "GraphQL",
@@ -23,11 +24,19 @@ export const DATA = {
       ],
     },
     {
+      title: "Development Practices",
+      skills: [
+        "AI-assisted development (Claude Code, Cursor)",
+        "Code reviews",
+        "Pair programming",
+        "Agile/Scrum methodologies",
+      ],
+    },
+    {
       title: "Front End Architecture",
       skills: [
         "Micro-frontends",
         "Design systems",
-        "Performance optimization",
         "Web performance",
         "Accessibility (A11Y)",
       ],
@@ -42,22 +51,12 @@ export const DATA = {
       ],
     },
     {
-      title: "Development Practices",
-      skills: [
-        "Code reviews",
-        "Pair programming",
-        "CI/CD pipelines",
-        "Agile/Scrum methodologies",
-      ],
-    },
-
-    {
       title: "Testing & Quality",
       skills: ["Cypress/Playwright (E2E)", "Vitest/Jest (Integration, Unit)"],
     },
     {
       title: "Tools & Infrastructure",
-      skills: ["Git", "GitHub Actions", "Webpack", "Node.js"],
+      skills: ["Git", "GitHub Actions", "Webpack", "CI/CD pipelines"],
     },
   ],
   contact: {
