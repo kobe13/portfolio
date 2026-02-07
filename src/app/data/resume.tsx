@@ -7,71 +7,67 @@ export const DATA = {
   presentation:
     "A passionate and experienced frontend engineer specializing in React, dedicated to contributing to innovative projects. Based in France and working remotely.",
   keySkills:
-    "Staff Frontend Engineer with <strong> 14+ years of experience in frontend engineering</strong>, building <strong>scalable, high performance</strong> web applications. <strong>Deep expertise in React and TypeScript (8+ years), frontend architecture</strong>, and developer experience. Proven track record <strong>leading teams</strong>, defining technical standards, and delivering <strong>business critical products</strong> in fully remote, international environments.",
+    "Staff Frontend Engineer with <strong>14+ years of experience</strong> building <strong>scalable, high-performance</strong> web applications. <strong>Deep expertise in React, TypeScript, and frontend architecture</strong>, with a proven track record <strong>leading teams</strong>, defining technical standards, and delivering <strong>business-critical products</strong> in fully remote, international environments.",
   skills: [
     {
-      title: "Core Technology",
+      title: "Frontend",
       skills: [
         "React",
         "TypeScript",
         "Next.js",
+        "JavaScript",
         "GraphQL",
         "Apollo Client",
         "TanStack Query",
-        "Redux",
-        "React Hook Form",
-        "Zod",
       ],
     },
     {
-      title: "Frontend Architecture",
+      title: "Architecture",
       skills: [
         "Micro-frontends (Module Federation)",
-        "Design systems",
-        "Performance optimization",
-        "Accessibility (WCAG)",
-        "API integration patterns",
-      ],
-    },
-    {
-      title: "Design & Styling",
-      skills: [
-        "Material UI",
-        "Tailwind CSS",
-        "Styled-components",
-        "CSS-in-JS",
-        "Responsive design",
+        "Design Systems",
+        "Frontend Architecture",
+        "Performance Optimization",
+        "API Integration Patterns",
       ],
     },
     {
       title: "Testing & Quality",
       skills: [
-        "E2E testing (Cypress, Playwright)",
-        "Unit & Integration testing (Vitest, Jest)",
-        "Test architecture",
+        "Cypress",
+        "Playwright",
+        "Vitest",
+        "Jest",
+        "E2E and unit testing strategies",
       ],
     },
     {
-      title: "Tools & Infrastructure",
+      title: "Tooling & Infra",
       skills: [
         "CI/CD (GitHub Actions)",
-        "Build tools (Webpack, Vite)",
+        "Webpack",
+        "Vite",
+        "Node.js",
+        "pnpm",
         "Docker (basics)",
         "Monitoring (Sentry)",
-        "Package management (pnpm)",
       ],
     },
     {
-      title: "Development Practices",
+      title: "Engineering Practices",
       skills: [
         "Technical leadership",
-        "Architectural decision records",
+        "Architectural decision records (ADRs)",
         "Code reviews",
         "Documentation",
         "Mentoring",
         "Cross-team collaboration",
       ],
     },
+  ],
+  languages: [
+    { language: "English", level: "Fluent" },
+    { language: "French", level: "Native" },
   ],
   contact: {
     email: "bnelson.profi@gmail.com",
@@ -99,13 +95,13 @@ export const DATA = {
       title: "Staff Frontend Engineer at Qonto",
       companyDescription:
         "Leading European business finance solution for SMEs and freelancers.",
-      dates: "December 2024 - Present",
+      dates: "December 2024 – Present",
       location: "Remote, France",
       description: [
-        "➾ Engineered complex pre-accounting tools automating SME finance workflows,reducing manual reconciliation effort for business users.",
-        "➾ Shaped the feature roadmap and technical specifications in close collaboration with Product and Design, ensuring alignment with user needs and business KPIs.",
-        "➾ Optimized application performance and reliability by implementing strategic code-splitting, rendering optimizations, and comprehensive E2E/Integration/Unit testing.",
-        "➾ Contributed to global, cross team frontend initiatives by enhancing shared frameworks and establishing best practices.",
+        "➾ Engineered complex pre-accounting tools automating SME finance workflows, reducing manual reconciliation effort for business users.",
+        "➾ Shaped product roadmap and technical specifications with product and design teams to align with business KPIs.",
+        "➾ Optimized frontend performance through code-splitting, rendering optimizations, and comprehensive E2E and unit testing.",
+        "➾ Contributed to company-wide frontend initiatives, improving shared frameworks and engineering best practices.",
       ],
       skills: [
         "React JS",
@@ -129,13 +125,13 @@ export const DATA = {
       title: "Lead Frontend Engineer at Stuart",
       companyDescription:
         "Last mile delivery platform that connects small and big businesses to a fleet of couriers.",
-      dates: "June 2019 - June 2024",
+      dates: "June 2019 – June 2024",
       location: "Remote, France",
       description: [
-        "➾ Led the development of mission critical applications by leading the frontend team in the adoption and implementation of REST and GraphQL APIs.",
-        "➾ Architected a scalable and maintainable frontend ecosystem by establishing micro-frontends and designing custom internal NPM packages and frameworks.",
-        "➾ Elevated frontend development standards across the company by defining and disseminating technical guidelines through documentation and leading community of practice sessions.",
-        "➾ Mentored and guided team members, while leading the full cycle hiring and recruitment process for the frontend department.",
+        "➾ Led development of mission-critical frontend applications and provided technical leadership to the frontend team.",
+        "➾ Architected a scalable micro-frontend platform adopted across multiple product teams, enabling independent deployments and faster feature delivery.",
+        "➾ Defined frontend standards, documentation, and engineering practices across the organization.",
+        "➾ Mentored engineers and led hiring and recruitment for the frontend department.",
       ],
       skills: [
         "JavaScript",
@@ -164,11 +160,11 @@ export const DATA = {
       title: "Lead Frontend Engineer at Data Soluce",
       companyDescription:
         "Platform for collaboration across the lifecycle of real estate development and maintenance.",
-      dates: "Dec 2018 – May 2019",
+      dates: "December 2018 – May 2019",
       location: "Remote, France",
       description: [
-        "➾ Established frontend architecture and selected a robust tech stack, including testing and linting tools.",
-        "➾ Provided mentorship to junior developers and wrote detailed technical documentation.",
+        "➾ Defined frontend architecture and selected core technology stack, testing, and tooling.",
+        "➾ Mentored junior engineers and produced technical documentation.",
       ],
       skills: [
         "React",
@@ -191,11 +187,11 @@ export const DATA = {
       title: "Senior Frontend Engineer at Scout24 Group",
       companyDescription:
         "Operator of leading digital marketplaces in Germany and other selected European countries.",
-      dates: "September 2017 - November 2018",
+      dates: "September 2017 – November 2018",
       location: "Munich, Germany",
       description: [
-        "➾ Delivered high-quality, responsive, and performant frontend solutions for AutoScout24 projects using React, Redux, and TypeScript and Jest for unit testing.",
-        "➾ Awarded 'Q2 Winner' of the Tech HackWeek 2018 for a project focused on Blockchain and Peer-2-Peer technology.",
+        "➾ Delivered high-performance React applications for AutoScout24.",
+        "➾ Winner of Tech HackWeek 2018 for blockchain and peer-to-peer prototype.",
       ],
       skills: [
         "React JS",
@@ -215,7 +211,7 @@ export const DATA = {
       title: "Senior Frontend Engineer at CHIP",
       companyDescription:
         "Leading online provider in the digital consulting segment in Germany and Europe.",
-      dates: "November 2016 - September 2017",
+      dates: "November 2016 – September 2017",
       location: "Munich, Germany",
       description: [
         "➾ Engineered a high performing and responsive frontend for a price comparison site.",
@@ -235,10 +231,11 @@ export const DATA = {
     },
     {
       id: "early-career",
-      title: "Early Career — International Frontend Engineering",
-      dates: "2011 - 2016",
+      title:
+        "Early Career — Frontend Engineer (France, Slovakia, Czech Republic)",
+      dates: "2011 – 2016",
       companyDescription:
-        "Early career across international companies in France, Slovakia, and the Czech Republic. Built strong foundations in responsive design, cross-browser compatibility, and stakeholder collaboration, with early leadership exposure. Recognized with multiple corporate awards (Dell, Pixmania).",
+        "Roles at Dell, Pixmania, and tech agencies. Focused on responsive design, cross-browser compatibility, and stakeholder collaboration. Recognized with multiple corporate awards for technical excellence.",
     },
   ],
 };

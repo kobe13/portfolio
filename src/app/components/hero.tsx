@@ -70,6 +70,16 @@ export const Hero = () => {
             <div>Based in France</div>
           </div>
         </div>
+        <div className="mt-16 flex justify-center gap-8 text-sm text-gray-500">
+          {DATA.languages.map((language) => (
+            <div key={language.language} className="text-center">
+              <div className="text-2xl font-bold text-foreground">
+                {language.level}
+              </div>
+              <div>{language.language}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
