@@ -38,6 +38,7 @@ export const DATA = {
         "Micro-frontends",
         "Design systems",
         "Web performance",
+        "Tech debt management",
         "Accessibility (A11Y)",
       ],
     },
