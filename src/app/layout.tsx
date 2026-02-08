@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     icon: "/favicon.svg",
   },
   openGraph: {
-    title: "Bryan Nelson - Lead Frontend Engineer",
+    title: "Bryan Nelson - Staff Frontend Engineer",
     description:
       "Staff Frontend Engineer with 14+ years of experience specializing in React, TypeScript, and modern web technologies. Based in France, working remotely.",
     url: "https://portfolio-phi-umber-56.vercel.app/",

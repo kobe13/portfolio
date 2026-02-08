@@ -10,16 +10,13 @@ export const SkillsSection = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             Technical Expertise
           </h2>
-          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            {parse(DATA.keySkills)}
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
           {DATA.skills.map((category, idx) => (
             <div
               key={idx}
-              className="bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow"
+              className="w-full bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow text-center md:last:col-span-2 md:last:justify-self-center md:last:max-w-[calc((100%-2rem)/2)]"
             >
               <h3 className="text-xl font-semibold text-foreground mb-4">
                 {category.title}

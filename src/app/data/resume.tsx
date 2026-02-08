@@ -5,9 +5,7 @@ export const DATA = {
   firstName: "Bryan",
   url: "https://portfolio-phi-umber-56.vercel.app/",
   presentation:
-    "A passionate and experienced frontend engineer specializing in React, dedicated to contributing to innovative projects. Based in France and working remotely.",
-  keySkills:
-    "Staff Frontend Engineer with <strong>14+ years of experience</strong> building <strong>scalable, high-performance</strong> web applications. <strong>Deep expertise in React, TypeScript, and frontend architecture</strong>, with a proven track record <strong>leading teams</strong>, defining technical standards, and delivering <strong>business-critical products</strong> in fully remote, international environments.",
+    "Staff Frontend Engineer with 14+ years of experience building scalable web applications. I specialize in React, TypeScript, frontend architecture and design systems. Based in France, working remotely with US East Coast overlap. Currently building fintech tools at Qonto (Series D unicorn, €5B).",
   skills: [
     {
       title: "Frontend",
