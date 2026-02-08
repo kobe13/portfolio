@@ -94,7 +94,7 @@ export const DATA = {
       id: "qonto-2024",
       title: "Staff Frontend Engineer at Qonto",
       companyDescription:
-        "Leading European business finance solution for SMEs and freelancers.",
+        "Fintech SaaS (B2B banking, Series D unicorn, €5B valuation).",
       dates: "December 2024 – Present",
       location: "Remote, France",
       description: [
@@ -124,7 +124,7 @@ export const DATA = {
       id: "stuart-2019",
       title: "Lead Frontend Engineer at Stuart",
       companyDescription:
-        "Last mile delivery platform that connects small and big businesses to a fleet of couriers.",
+        "Logistics & Last-mile Delivery Platform (Series B, acquired by DPDgroup 2023).",
       dates: "June 2019 – June 2024",
       location: "Remote, France",
       description: [
@@ -159,7 +159,7 @@ export const DATA = {
       id: "data-soluce-2018",
       title: "Lead Frontend Engineer at Data Soluce",
       companyDescription:
-        "Platform for collaboration across the lifecycle of real estate development and maintenance.",
+        "PropTech / Collaborative Building Data Platform (Early-stage).",
       dates: "December 2018 – May 2019",
       location: "Remote, France",
       description: [
@@ -186,7 +186,7 @@ export const DATA = {
       id: "scout24-2017",
       title: "Senior Frontend Engineer at Scout24 Group",
       companyDescription:
-        "Operator of leading digital marketplaces in Germany and other selected European countries.",
+        "Digital Marketplace (Public company, 1000+ employees).",
       dates: "September 2017 – November 2018",
       location: "Munich, Germany",
       description: [
@@ -210,7 +210,7 @@ export const DATA = {
       id: "chip-2016",
       title: "Senior Frontend Engineer at CHIP",
       companyDescription:
-        "Leading online provider in the digital consulting segment in Germany and Europe.",
+        "Digital Media & Price Comparison (Established media company).",
       dates: "November 2016 – September 2017",
       location: "Munich, Germany",
       description: [
