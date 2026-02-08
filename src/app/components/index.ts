@@ -5,4 +5,5 @@ export { Navigation } from "./navigation";
 export { Hero } from "./hero";
 export { SkillsSection } from "./skills-section";
 export { ExperienceSection } from "./experience-section";
+export { CaseStudySection } from "./case-study-section";
 export { ContactSection } from "./contact-section";

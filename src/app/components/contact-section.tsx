@@ -9,8 +9,9 @@ export const ContactSection = () => {
           Let&apos;s Work Together
         </h2>
         <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-          I&apos;m always open to discussing new opportunities, interesting
-          projects, or just having a conversation about technology.
+          Looking for a Staff Frontend Engineer to architect scalable systems,
+          lead technical initiatives across teams, or build high performance
+          React applications?
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
@@ -31,7 +32,7 @@ export const ContactSection = () => {
                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
               />
             </svg>
-            {DATA.contact.email}
+            Send me an email
           </a>
         </div>
 

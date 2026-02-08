@@ -9,6 +9,7 @@ const navItems = [
   { id: "hero", label: "Home" },
   { id: "skills", label: "Skills" },
   { id: "experience", label: "Experience" },
+  { id: "case-studies", label: "Case studies" },
   { id: "contact", label: "Contact" },
 ];
 
@@ -23,25 +24,28 @@ export const Navigation = () => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
 
-      const offset = 80; // same offset used for scrollToSection
-      let closestId: string | null = null;
-      let minDistance = Number.POSITIVE_INFINITY;
+      const viewportTop = 0;
+      const viewportBottom = window.innerHeight;
 
-      sectionIds.forEach((id) => {
+      // Active section = the one with the most visible height in the viewport
+      let activeId = sectionIds[0];
+      let maxVisible = 0;
+
+      for (const id of sectionIds) {
         const el = document.getElementById(id);
-        if (!el) return;
-        const elTop =
-          el.getBoundingClientRect().top + window.pageYOffset - offset;
-        const distance = Math.abs(elTop - window.pageYOffset);
-        if (distance < minDistance) {
-          minDistance = distance;
-          closestId = id;
-        }
-      });
+        if (!el) continue;
+        const { top, bottom } = el.getBoundingClientRect();
+        const visibleTop = Math.max(top, viewportTop);
+        const visibleBottom = Math.min(bottom, viewportBottom);
+        const visibleHeight = Math.max(0, visibleBottom - visibleTop);
 
-      if (closestId) {
-        setActiveSection(closestId);
+        if (visibleHeight > maxVisible) {
+          maxVisible = visibleHeight;
+          activeId = id;
+        }
       }
+
+      setActiveSection(activeId);
     };
 
     window.addEventListener("scroll", handleScroll);

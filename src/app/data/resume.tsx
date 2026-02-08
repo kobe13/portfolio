@@ -236,4 +236,22 @@ export const DATA = {
         "Roles at Dell, Pixmania, and tech agencies. Focused on responsive design, cross-browser compatibility, and stakeholder collaboration. Recognized with multiple corporate awards for technical excellence.",
     },
   ],
+  caseStudies: [
+    {
+      id: "micro-frontends-stuart",
+      title: "Scalable micro-frontend platform at Stuart",
+      summary:
+        "Architecture and rollout of a micro-frontend platform adopted across multiple product teams: independent deployments, shared design system, and faster feature delivery. Covers context, technical choices (e.g. Module Federation), and outcomes.",
+      link: {
+        label: "View presentation",
+        url: "https://drive.google.com/file/d/16EgN10jZ4Lo2HarY-wr0zo8Gv0yNM61Y/view",
+      },
+      tags: [
+        "Micro-frontends",
+        "Webpack",
+        "Architecture",
+        "Technical leadership",
+      ],
+    },
+  ],
 };

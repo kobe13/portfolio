@@ -3,6 +3,7 @@ import {
   Hero,
   SkillsSection,
   ExperienceSection,
+  CaseStudySection,
   ContactSection,
 } from "./components";
 
@@ -14,6 +15,7 @@ const Home = () => {
         <Hero />
         <SkillsSection />
         <ExperienceSection />
+        <CaseStudySection />
         <ContactSection />
       </main>
     </>
