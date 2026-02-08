@@ -127,7 +127,13 @@ export const DATA = {
       location: "Remote, France",
       description: [
         "➾ Led development of mission-critical frontend applications and provided technical leadership to the frontend team.",
-        "➾ Architected a scalable micro-frontend platform adopted across multiple product teams, enabling independent deployments and faster feature delivery.",
+        {
+          text: "Architected a scalable micro-frontend platform adopted across multiple product teams, enabling independent deployments and faster feature delivery.",
+          link: {
+            label: "View case study",
+            url: "#case-studies",
+          },
+        },
         "➾ Defined frontend standards, documentation, and engineering practices across the organization.",
         "➾ Mentored engineers and led hiring and recruitment for the frontend department.",
       ],

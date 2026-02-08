@@ -1,10 +1,14 @@
 import React from "react";
 import { Badge } from "./badge";
 
+type DescriptionItem =
+  | string
+  | { text: string; link: { label: string; url: string } };
+
 type Props = {
   title: string;
   companyDescription?: string;
-  description?: string[];
+  description?: DescriptionItem[];
   dates?: string;
   location?: string;
   skills?: string[];
@@ -73,17 +77,56 @@ export const WorkCard = ({
 
       {description && description.length > 0 && (
         <ul className="space-y-2 mb-4">
-          {description.map((desc, idx) => (
-            <li
-              key={idx}
-              className="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-3"
-            >
-              <span className="text-blue-600 dark:text-blue-400 flex-shrink-0 mt-0.5">
-                ▸
-              </span>
-              <span className="flex-1">{desc.replace("➾", "").trim()}</span>
-            </li>
-          ))}
+          {description.map((desc, idx) => {
+            const text =
+              typeof desc === "string"
+                ? desc.replace("➾", "").trim()
+                : desc.text;
+            const link = typeof desc === "string" ? null : desc.link;
+            return (
+              <li
+                key={idx}
+                className="text-gray-700 dark:text-gray-300 leading-relaxed flex items-start gap-3"
+              >
+                <span className="text-blue-600 dark:text-blue-400 flex-shrink-0 mt-0.5">
+                  ▸
+                </span>
+                <span className="flex-1">
+                  {text}
+                  {link && (
+                    <>
+                      {" — "}
+                      <a
+                        href={link.url}
+                        {...(link.url.startsWith("#")
+                          ? {}
+                          : {
+                              target: "_blank",
+                              rel: "noopener noreferrer",
+                            })}
+                        className="text-blue-600 dark:text-blue-400 font-medium hover:underline inline-flex items-center gap-1"
+                      >
+                        {link.label}
+                        <svg
+                          className="w-3.5 h-3.5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                          />
+                        </svg>
+                      </a>
+                    </>
+                  )}
+                </span>
+              </li>
+            );
+          })}
         </ul>
       )}
 

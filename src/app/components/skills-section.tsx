@@ -1,4 +1,3 @@
-import parse from "html-react-parser";
 import { DATA } from "../data/resume";
 import { Badge } from "./badge";
 
