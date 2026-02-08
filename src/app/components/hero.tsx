@@ -67,7 +67,7 @@ export const Hero = () => {
           </div>
           <div className="text-center">
             <div className="text-2xl font-bold text-foreground">Remote</div>
-            <div>Based in France</div>
+            <div>France (CET) / US East Coast overlap</div>
           </div>
         </div>
         <div className="mt-16 flex justify-center gap-8 text-sm text-gray-500">
