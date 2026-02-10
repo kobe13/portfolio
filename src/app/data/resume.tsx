@@ -252,6 +252,7 @@ export const DATA = {
     {
       id: "micro-frontends-stuart",
       title: "Scalable micro-frontend platform at Stuart",
+      image: "micro-frontend-diagram",
       summary:
         "Architecture and rollout of a micro-frontend platform adopted across multiple product teams: independent deployments, shared design system, and faster feature delivery. Covers context, technical choices (e.g. Module Federation), and outcomes.",
       link: {

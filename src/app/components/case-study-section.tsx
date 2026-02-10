@@ -1,10 +1,23 @@
+import Image from "next/image";
 import { DATA } from "../data/resume";
 import { Badge } from "./badge";
+import microFrontendDiagram from "../assets/micro-frontend-diagram.png";
+
+const CASE_STUDY_IMAGES: Record<
+  string,
+  { src: typeof microFrontendDiagram; alt: string }
+> = {
+  "micro-frontend-diagram": {
+    src: microFrontendDiagram,
+    alt: "Micro-frontend architecture diagram",
+  },
+};
 
 type CaseStudy = {
   id: string;
   title: string;
   summary: string;
+  image?: string;
   link: { label: string; url: string };
   tags: string[];
 };
@@ -25,13 +38,13 @@ export const CaseStudySection = () => {
             Case Studies
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Deep dives into architecture and delivery: slides and write-ups from
-            real projects.
+            Deep dives into real-world architecture challenges and solutions.
+            Presentations and technical write-ups from production systems.
           </p>
         </div>
 
         <ul className="space-y-8">
-          {caseStudies.map(({ id, title, summary, link, tags }) => (
+          {caseStudies.map(({ id, title, summary, image, link, tags }) => (
             <li
               key={id}
               className="bg-background rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-all duration-200"
@@ -39,6 +52,17 @@ export const CaseStudySection = () => {
               <h3 className="text-2xl font-bold text-foreground mb-3">
                 {title}
               </h3>
+              {image && CASE_STUDY_IMAGES[image] && (
+                <div className="mb-4 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
+                  <Image
+                    src={CASE_STUDY_IMAGES[image].src}
+                    alt={CASE_STUDY_IMAGES[image].alt}
+                    className="w-full h-auto"
+                    sizes="(max-width: 1152px) 100vw, 1152px"
+                    quality={90}
+                  />
+                </div>
+              )}
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
                 {summary}
               </p>
