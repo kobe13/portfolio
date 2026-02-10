@@ -132,7 +132,7 @@ export const DATA = {
           links: [
             {
               label: "View case study",
-              url: "#case-studies",
+              url: "https://drive.google.com/file/d/16EgN10jZ4Lo2HarY-wr0zo8Gv0yNM61Y/view",
             },
             {
               label: "| Read the ADR: Why Module Federation?",
