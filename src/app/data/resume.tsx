@@ -129,10 +129,16 @@ export const DATA = {
         "➾ Led development of mission-critical frontend applications and provided technical leadership to the frontend team.",
         {
           text: "Architected a scalable micro-frontend platform adopted across multiple product teams, enabling independent deployments and faster feature delivery.",
-          link: {
-            label: "View case study",
-            url: "#case-studies",
-          },
+          links: [
+            {
+              label: "View case study",
+              url: "#case-studies",
+            },
+            {
+              label: "| Read the ADR: Why Module Federation?",
+              url: "https://drive.google.com/file/d/1JAcSFKJJlbkJc4Tk1mKonxqH0af6N8M4/view",
+            },
+          ],
         },
         "➾ Defined frontend standards, documentation, and engineering practices across the organization.",
         "➾ Mentored engineers and led hiring and recruitment for the frontend department.",

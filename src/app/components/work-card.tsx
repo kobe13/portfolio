@@ -3,7 +3,7 @@ import { Badge } from "./badge";
 
 type DescriptionItem =
   | string
-  | { text: string; link: { label: string; url: string } };
+  | { text: string; links: { label: string; url: string }[] };
 
 type Props = {
   title: string;
@@ -82,7 +82,8 @@ export const WorkCard = ({
               typeof desc === "string"
                 ? desc.replace("➾", "").trim()
                 : desc.text;
-            const link = typeof desc === "string" ? null : desc.link;
+            const links = typeof desc === "string" ? null : desc.links;
+
             return (
               <li
                 key={idx}
@@ -93,34 +94,37 @@ export const WorkCard = ({
                 </span>
                 <span className="flex-1">
                   {text}
-                  {link && (
+                  {links && links.length > 0 && (
                     <>
                       {" — "}
-                      <a
-                        href={link.url}
-                        {...(link.url.startsWith("#")
-                          ? {}
-                          : {
-                              target: "_blank",
-                              rel: "noopener noreferrer",
-                            })}
-                        className="text-blue-600 dark:text-blue-400 font-medium hover:underline inline-flex items-center gap-1"
-                      >
-                        {link.label}
-                        <svg
-                          className="w-3.5 h-3.5"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
+                      {links.map((link) => (
+                        <a
+                          key={link.url}
+                          href={link.url}
+                          {...(link.url.startsWith("#")
+                            ? {}
+                            : {
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                              })}
+                          className="text-blue-600 dark:text-blue-400 font-medium hover:underline inline-flex items-center gap-1 mr-2"
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                          />
-                        </svg>
-                      </a>
+                          {link.label}
+                          <svg
+                            className="w-3.5 h-3.5"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth={2}
+                              d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                            />
+                          </svg>
+                        </a>
+                      ))}
                     </>
                   )}
                 </span>
