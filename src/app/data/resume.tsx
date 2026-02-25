@@ -5,7 +5,7 @@ export const DATA = {
   firstName: "Bryan",
   url: "https://portfolio-phi-umber-56.vercel.app/",
   presentation:
-    "With over 14 years of experience building scalable, high-performance web applications, I specialize in React, TypeScript, and frontend architecture. Based in France, working remotely with US East Coast overlap. Currently building fintech tools at Qonto (Series D unicorn, €5B).",
+    "With over 14 years building scalable, high-performance web applications, I specialize in React, TypeScript, and frontend architecture. Based in France, working remotely with US East Coast overlap. Currently building fintech tools at Qonto (Series D unicorn, €5B). Early adopter of agentic coding workflows, focused on AI-native development.",
   skills: [
     {
       title: "Frontend",
@@ -30,19 +30,11 @@ export const DATA = {
       ],
     },
     {
-      title: "Testing & Quality",
-      skills: [
-        "Cypress",
-        "Playwright",
-        "Vitest",
-        "Jest",
-        "E2E and unit testing strategies",
-      ],
-    },
-    {
       title: "Tooling & Infra",
       skills: [
         "CI/CD (GitHub Actions)",
+        "Context Management (CLAUDE.md, Cursor rules, MCP)",
+        "Agentic coding workflows",
         "Webpack",
         "Vite",
         "Node.js",
@@ -60,6 +52,16 @@ export const DATA = {
         "Documentation",
         "Mentoring",
         "Cross-team collaboration",
+      ],
+    },
+    {
+      title: "Testing & Quality",
+      skills: [
+        "Cypress",
+        "Playwright",
+        "Vitest",
+        "Jest",
+        "E2E and unit testing strategies",
       ],
     },
   ],
@@ -96,9 +98,9 @@ export const DATA = {
       dates: "December 2024 – Present",
       location: "Remote, France",
       description: [
-        "➾ Engineered complex pre-accounting tools automating SME finance workflows, reducing manual reconciliation effort for business users.",
+        "➾ Engineered complex pre-accounting tools for SME finance workflows, implementing an agentic-first approach that significantly reduced manual reconciliation effort while ensuring 100% test coverage for critical logic.",
         "➾ Shaped product roadmap and technical specifications with product and design teams to align with business KPIs.",
-        "➾ Optimized frontend performance through code-splitting, rendering optimizations, and comprehensive E2E and unit testing.",
+        "➾ Optimized frontend performance and rendering through AI-assisted refactoring, maintaining high-velocity feature delivery within a complex, mission-critical codebase.",
         "➾ Contributed to company-wide frontend initiatives, improving shared frameworks and engineering best practices.",
       ],
       skills: [
