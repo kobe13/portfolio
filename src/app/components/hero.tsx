@@ -58,7 +58,7 @@ export const Hero = () => {
 
         <div className="mt-16 flex justify-center gap-8 text-sm text-gray-500">
           <div className="text-center">
-            <div className="text-2xl font-bold text-foreground">14+</div>
+            <div className="text-2xl font-bold text-foreground">15</div>
             <div>Years Experience</div>
           </div>
           <div className="text-center">

@@ -5,7 +5,7 @@ export const DATA = {
   firstName: "Bryan",
   url: "https://portfolio-phi-umber-56.vercel.app/",
   presentation:
-    "With over 14 years building scalable, high-performance web applications, I specialize in React, TypeScript, and frontend architecture. Based in France, working remotely with US East Coast overlap. Currently building fintech tools at Qonto (Series D unicorn, €5B). Early adopter of agentic coding workflows, focused on AI-native development.",
+    "With 15 years of experience building scalable, high-performance web applications, I specialize in React, TypeScript, and frontend architecture. Based in France, working remotely with US East Coast overlap. Currently building fintech tools at Qonto (Series D unicorn, €5B). Early adopter of agentic coding workflows, focused on AI-native development.",
   skills: [
     {
       title: "Frontend",
@@ -98,10 +98,10 @@ export const DATA = {
       dates: "December 2024 – Present",
       location: "Remote, France",
       description: [
-        "➾ Engineered complex pre-accounting tools for SME finance workflows, implementing an agentic-first approach that significantly reduced manual reconciliation effort while ensuring 100% test coverage for critical logic.",
-        "➾ Shaped product roadmap and technical specifications with product and design teams to align with business KPIs.",
+        "➾ Engineered complex pre-accounting tools for SME finance workflows, implementing an agentic-first development lifecycle approach that significantly reduced manual reconciliation effort while ensuring 100% test coverage for critical logic.",
+        "➾ Implemented AI-augmented TDD workflows to maintain 100% coverage on critical logic and leveraged agentic loops to generate comprehensive test suites prior to implementation.",
         "➾ Optimized frontend performance and rendering through AI-assisted refactoring, maintaining high-velocity feature delivery within a complex, mission-critical codebase.",
-        "➾ Contributed to company-wide frontend initiatives, improving shared frameworks and engineering best practices.",
+        "➾ Contributed to company-wide frontend initiatives, improving shared frameworks and standardizing engineering practices across multiple teams.",
       ],
       skills: [
         "React JS",
@@ -125,12 +125,12 @@ export const DATA = {
       title: "Lead Frontend Engineer at Stuart",
       companyDescription:
         "Logistics & Last-mile Delivery Platform (Series B, acquired by DPDgroup 2023).",
-      dates: "June 2019 – June 2024",
+      dates: "May 2019 – June 2024",
       location: "Remote, France",
       description: [
         "➾ Led development of mission-critical frontend applications and provided technical leadership to the frontend team.",
         {
-          text: "Architected a scalable micro-frontend platform adopted across multiple product teams, enabling independent deployments and faster feature delivery.",
+          text: "Architected a micro-frontend platform adopted by 5 teams, enabling independent deployments and transforming release cycles from biweekly to multiple times per day across the organization.",
           links: [
             {
               label: "View case study",
@@ -226,8 +226,8 @@ export const DATA = {
       dates: "November 2016 – September 2017",
       location: "Munich, Germany",
       description: [
-        "➾ Engineered a high performing and responsive frontend for a price comparison site.",
-        "➾ Developed a custom JavaScript framework to ensure pixel perfect, cross-browser compatibility.",
+        "➾ Built high-performance, responsive frontend for price comparison platform.",
+        "➾ Developed custom JavaScript framework ensuring pixel-perfect cross-browser compatibility.",
       ],
       skills: [
         "JavaScript",
@@ -247,7 +247,7 @@ export const DATA = {
         "Early Career — Frontend Engineer (France, Slovakia, Czech Republic)",
       dates: "2011 – 2016",
       companyDescription:
-        "Roles at Dell, Pixmania, and tech agencies. Focused on responsive design, cross-browser compatibility, and stakeholder collaboration. Recognized with multiple corporate awards for technical excellence.",
+        "Frontend Engineer roles at Dell, Pixmania, and tech agencies across France, Slovakia, and Czech Republic. Built responsive, cross-browser web applications and collaborated with international stakeholders. Recognized with multiple corporate awards for technical excellence.",
     },
   ],
   caseStudies: [
@@ -256,7 +256,7 @@ export const DATA = {
       title: "Scalable micro-frontend platform at Stuart",
       image: "micro-frontend-diagram",
       summary:
-        "Architecture and rollout of a micro-frontend platform adopted across multiple product teams: independent deployments, shared design system, and faster feature delivery. Covers context, technical choices (e.g. Module Federation), and outcomes.",
+        "Architecture and rollout of a micro-frontend platform adopted by 5 teams: independent deployments, release cycles transformed from biweekly to multiple times per day. Covers context, technical choices (e.g. Module Federation), and outcomes.",
       link: {
         label: "View presentation",
         url: "https://drive.google.com/file/d/16EgN10jZ4Lo2HarY-wr0zo8Gv0yNM61Y/view",
