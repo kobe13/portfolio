@@ -9,10 +9,10 @@ export const Hero = () => {
     >
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8 flex justify-center">
-          <div className="relative">
+          <div className="relative overflow-hidden rounded-full">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-2xl opacity-20 animate-pulse" />
             <Image
-              className="relative rounded-full border-4 border-white shadow-2xl"
+              className="relative rounded-full border-4 border-white shadow-2xl object-cover aspect-square"
               src="/me.jpg"
               alt={`${DATA.firstName} ${DATA.lastName}, Staff Frontend Engineer`}
               width={200}
