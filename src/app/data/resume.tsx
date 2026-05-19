@@ -17,6 +17,8 @@ export const DATA = {
         "GraphQL",
         "Apollo Client",
         "TanStack Query",
+        "Tailwind CSS",
+        "Material UI (MUI)",
       ],
     },
     {
@@ -142,7 +144,7 @@ export const DATA = {
             },
           ],
         },
-        "➾ Defined frontend standards, documentation, and engineering practices across the organization.",
+        "➾ Defined global frontend standards and designed a unified Design System layered over Material UI (MUI), standardizing UI/UX components across all micro-frontends while reducing engineering drift.",
         "➾ Mentored engineers and led hiring and recruitment for the frontend department.",
       ],
       skills: [
@@ -160,7 +162,7 @@ export const DATA = {
         "GitHub Actions",
         "HTML 5",
         "SCSS/SASS",
-        "Material UI",
+        "Material UI (MUI)",
         "Web performance",
         "Responsive design",
         "Micro-frontends",
