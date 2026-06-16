@@ -100,8 +100,8 @@ export const DATA = {
       dates: "December 2024 – Present",
       location: "Remote, France",
       description: [
-        "➾ Engineered complex pre-accounting tools for SME finance workflows, implementing an agentic-first development lifecycle approach that significantly reduced manual reconciliation effort while ensuring 100% test coverage for critical logic.",
-        "➾ Implemented AI-augmented TDD workflows to maintain 100% coverage on critical logic and leveraged agentic loops to generate comprehensive test suites prior to implementation.",
+        "➾ Engineered complex pre-accounting tools for SME finance workflows, shaping product roadmap and technical specifications alongside product and design to align with business KPIs.",
+        "➾ Pioneered a TDD-first agentic development workflow — writing test specs first, then leveraging Claude Code to implement against them — achieving 100% coverage on critical financial logic.",
         "➾ Optimized frontend performance and rendering through AI-assisted refactoring, maintaining high-velocity feature delivery within a complex, mission-critical codebase.",
         "➾ Contributed to company-wide frontend initiatives, improving shared frameworks and standardizing engineering practices across multiple teams.",
       ],
