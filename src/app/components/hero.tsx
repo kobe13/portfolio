@@ -62,7 +62,7 @@ export const Hero = () => {
             <div>Years Experience</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-foreground">8+</div>
+            <div className="text-2xl font-bold text-foreground">9+</div>
             <div>Years React/TS</div>
           </div>
           <div className="text-center">

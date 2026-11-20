@@ -11,11 +11,11 @@ export const SkillsSection = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {DATA.skills.map((category, idx) => (
             <div
               key={idx}
-              className="w-full bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow text-center md:last:col-span-2 md:last:justify-self-center md:last:max-w-[calc((100%-2rem)/2)]"
+              className="flex h-full w-full flex-col bg-white dark:bg-slate-800 rounded-xl p-6 shadow-sm border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow"
             >
               <h3 className="text-xl font-semibold text-foreground mb-4">
                 {category.title}
