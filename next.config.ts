@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
     optimizePackageImports: ["next/image", "html-react-parser"],
   },
   images: {
-    qualities: [75, 85],
+    qualities: [75, 85, 90],
   },
   // Turbopack configuration
   turbopack: {},

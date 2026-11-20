@@ -2,8 +2,7 @@ import React from "react";
 import { Badge } from "./badge";
 
 type DescriptionItem =
-  | string
-  | { text: string; links: { label: string; url: string }[] };
+  string | { text: string; links: { label: string; url: string }[] };
 
 type Props = {
   title: string;
